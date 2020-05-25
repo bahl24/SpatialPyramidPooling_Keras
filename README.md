@@ -16,6 +16,8 @@ PASCAL VOC 2007 dataset consists of 20 visual object classes from realistic scen
 2. Animal: bird, cat, cow, dog, horse, sheep
 3. Vehicle: aeroplane, bicycle, boat, bus, car, motorbike, train
 4. Indoor: bottle, chair, dining table, potted plant, sofa, tv/monitor
+![image](https://user-images.githubusercontent.com/43816495/82816175-48c0fe00-9eb8-11ea-92da-1c41fc9ff034.png)
+
 
 ## Instructions to run
 It is assumed that you have a working copy of Conda installed
@@ -30,6 +32,7 @@ jupyter notebook
 2. Open up ```sppnetFinal2.ipynb``` to run the respective experiments
 
 ## Obtaining mean Average Precision
+In The Paper the mAP is 35.11% in the testing set.  
 After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive copy those:
 Can run the code for all images by removing size restruction on read_images_for_detection      
 ```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
@@ -40,4 +43,5 @@ Can run the code for all images by removing size restruction on read_images_for_
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
 ![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)
+**average Precision for diningTable is shown below . For rest of classes image can be found in output folder**  
 ![diningtable](https://user-images.githubusercontent.com/43816495/82815110-19a98d00-9eb6-11ea-9c72-c69234825857.png)
