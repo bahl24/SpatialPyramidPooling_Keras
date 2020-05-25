@@ -1,4 +1,4 @@
-# Object Detection using Spatial Pyramid Pooling (SPPNet) (paper id : 74)
+# Object Detection using Spatial Pyramid Pooling (SPPNet) (paper id: 74)  
 This is a Keras implementation of the object detection & classification algorithm described in the ECCV 2014 paper **"Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"**. This has been done on top of AlexNet architecture using Keras API & Tensorflow.
 ![spp](http://i.imgur.com/SQWJVoD.png)
 
