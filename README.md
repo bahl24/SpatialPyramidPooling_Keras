@@ -29,7 +29,8 @@ conda activate base
 jupyter notebook
 ```
 1. Copy the data set to your drive [click here](https://drive.google.com/drive/folders/1FKYBjJ-ifct_bLFR6CSyNvbDswwo_B1X?usp=sharing)
-2. Open up ```sppnetFinal2.ipynb```on google colab to run the respective experiments  
+2. Open up ```sppnetFinal2.ipynb``` on google colab to run the respective experiments
+3. Run code to obtain the result.  
   
 **detection results will be obtained for test cases:**  
 ![image](https://user-images.githubusercontent.com/43816495/82817828-4d3ae600-9ebb-11ea-8344-a2af6c176d04.png)
