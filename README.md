@@ -1,4 +1,4 @@
-# Object Detection using Spatial Pyramid Pooling (SPPNet)
+# Object Detection using Spatial Pyramid Pooling (SPPNet) (paper id : 74)
 This is a Keras implementation of the object detection & classification algorithm described in the ECCV 2014 paper **"Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"**. This has been done on top of AlexNet architecture using Keras API & Tensorflow.
 ![spp](http://i.imgur.com/SQWJVoD.png)
 
@@ -30,7 +30,14 @@ jupyter notebook
 2. Open up ```sppnetFinal2.ipynb``` to run the respective experiments
 
 ## Obtaining mean Average Precision
-After executing ```sppnetFinal2.ipynb```**Ground Truth** and **Detected values** will be stored in your drive copy those:
+After executing ```sppnetFinal2.ipynb```**Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive copy those:
+Can run the code for all images by removing size restruction on read_images_for_detection      
+```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
+
 - ground-truth files into the folder input/ground-truth/ 
 - detection-results files into the folder input/detection-results/
-- Run the code: ```python main.py``` 
+- Run the code: ```python mainmAP.py```  
+**mAP output can be viewed in output folder** 
+![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
+![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)
+![diningtable](https://user-images.githubusercontent.com/43816495/82815110-19a98d00-9eb6-11ea-9c72-c69234825857.png)
