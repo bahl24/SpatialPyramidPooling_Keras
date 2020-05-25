@@ -44,6 +44,7 @@ You can run the code for all images by removing size restruction on read_images_
 - Copy ground-truth files into the folder input/ground-truth/ 
 - Copy detection-results files into the folder input/detection-results/
 - Run the code: ```python mainmAP.py```  
+  
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
 ![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)  
