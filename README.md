@@ -30,7 +30,7 @@ jupyter notebook
 2. Open up ```sppnetFinal2.ipynb``` to run the respective experiments
 
 ## Obtaining mean Average Precision
-After executing ```sppnetFinal2.ipynb```**Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive copy those:
+After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive copy those:
 Can run the code for all images by removing size restruction on read_images_for_detection      
 ```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
 
