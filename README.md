@@ -1,5 +1,8 @@
 # Object Detection using Spatial Pyramid Pooling (SPPNet)
 This is a Keras implementation of the object detection & classification algorithm described in the ECCV 2014 paper **"Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"**. This has been done on top of AlexNet architecture using Keras API & Tensorflow.
+![spp](http://i.imgur.com/SQWJVoD.png)
+
+(Image credit: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, K. He, X. Zhang, S. Ren, J. Sun)
 
 This is an implementation of both **object detection & classification** and has been trained and tested on **PASCAL VOC 2007 dataset**.
 
@@ -23,3 +26,8 @@ conda env create -f environment.yml
 conda activate base
 jupyter notebook
 ```
+Open up ```sppnetFinal2.ipynb``` to run the respective experiments
+Grounf Truth and Detected values will be stored in your drive copy those:
+- ground-truth files into the folder input/ground-truth/ 
+- detection-results files into the folder input/detection-results/
+Run the code: ```python main.py``` to obtain **mean Average Precision**
