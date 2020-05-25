@@ -29,8 +29,12 @@ conda activate base
 jupyter notebook
 ```
 1. Copy the data set to your drive [click here](https://drive.google.com/drive/folders/1FKYBjJ-ifct_bLFR6CSyNvbDswwo_B1X?usp=sharing)
-2. Open up ```sppnetFinal2.ipynb``` to run the respective experiments
-
+2. Open up ```sppnetFinal2.ipynb```on google colab to run the respective experiments  
+  
+**detection results will be obtained for test cases:**  
+![image](https://user-images.githubusercontent.com/43816495/82817828-4d3ae600-9ebb-11ea-8344-a2af6c176d04.png)
+![image](https://user-images.githubusercontent.com/43816495/82818038-b589c780-9ebb-11ea-81b2-f8645e1b1ceb.png)
+![image](https://user-images.githubusercontent.com/43816495/82817955-896e4680-9ebb-11ea-876d-95890b42d8f4.png)  
 ## Obtaining mean Average Precision
 In The Paper the mAP is 35.11% in the testing set.  
 After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive.  
