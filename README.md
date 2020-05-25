@@ -43,5 +43,5 @@ Can run the code for all images by removing size restruction on read_images_for_
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
 ![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)  
-**average Precision for diningTable is shown below . For rest of classes image can be found in output folder**  
+**Average Precision for diningTable is shown below . For rest of classes it can be found in output folder**  
 ![diningtable](https://user-images.githubusercontent.com/43816495/82815110-19a98d00-9eb6-11ea-9c72-c69234825857.png)
