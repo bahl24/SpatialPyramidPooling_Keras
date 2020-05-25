@@ -33,12 +33,12 @@ jupyter notebook
 
 ## Obtaining mean Average Precision
 In The Paper the mAP is 35.11% in the testing set.  
-After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive copy those:  
+After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive.  
 You can run the code for all images by removing size restruction on read_images_for_detection      
 ```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
 
-- ground-truth files into the folder input/ground-truth/ 
-- detection-results files into the folder input/detection-results/
+- Copy ground-truth files into the folder input/ground-truth/ 
+- Copy detection-results files into the folder input/detection-results/
 - Run the code: ```python mainmAP.py```  
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
