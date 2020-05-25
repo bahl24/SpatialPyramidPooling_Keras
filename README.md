@@ -10,6 +10,8 @@ Paper: [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recogn
 
 Dataset: [The PASCAL Visual Object Classes Challenge 2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)
 
+Detailed presentation report - NNFL presentation.pptx
+
 ## Dataset
 PASCAL VOC 2007 dataset consists of 20 visual object classes from realistic scenes. These include - 
 1. Person: person
@@ -20,19 +22,12 @@ PASCAL VOC 2007 dataset consists of 20 visual object classes from realistic scen
 
 
 ## Instructions to run
-It is assumed that you have a working copy of Conda installed
-```
-git clone https://github.com/bahl24/SpatialPyramidPooling_Keras.git
-cd SpatialPyramidPooling_Keras
-conda env create -f environment.yml
-conda activate base
-jupyter notebook
-```
+
 1. Copy the data set to your drive [click here](https://drive.google.com/drive/folders/1FKYBjJ-ifct_bLFR6CSyNvbDswwo_B1X?usp=sharing)
-2. Open up ```sppnetFinal2.ipynb``` on google colab to run the respective experiments
+2. Open up ```sppnetFinal.ipynb``` on google colab to run the respective experiments.
 3. Run code to obtain the result.  
   
-**detection results will be obtained for test cases:**  
+## Detection results
 ![image](https://user-images.githubusercontent.com/43816495/82817828-4d3ae600-9ebb-11ea-8344-a2af6c176d04.png)
 ![image](https://user-images.githubusercontent.com/43816495/82818038-b589c780-9ebb-11ea-81b2-f8645e1b1ceb.png)
 ![image](https://user-images.githubusercontent.com/43816495/82817955-896e4680-9ebb-11ea-876d-95890b42d8f4.png)  
@@ -43,11 +38,11 @@ After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values*
 mAP obtained is 10.4%.
 You can run the code for all images by removing size restruction on read_images_for_detection      
 ```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
-
+```
 - Copy ground-truth files into the folder input/ground-truth/ 
 - Copy detection-results files into the folder input/detection-results/
-- Run the code: ```python mainmAP.py```  
-  
+- python mainmAP.py
+``` 
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
 ![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)  
