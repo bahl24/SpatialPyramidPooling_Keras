@@ -34,6 +34,7 @@ jupyter notebook
 **detection results will be obtained for test cases:**  
 ![image](https://user-images.githubusercontent.com/43816495/82817828-4d3ae600-9ebb-11ea-8344-a2af6c176d04.png)
 ![image](https://user-images.githubusercontent.com/43816495/82818038-b589c780-9ebb-11ea-81b2-f8645e1b1ceb.png)
+![image](https://user-images.githubusercontent.com/43816495/82818576-8cb60200-9ebc-11ea-99f7-4002fbeca86f.png)
 ![image](https://user-images.githubusercontent.com/43816495/82817955-896e4680-9ebb-11ea-876d-95890b42d8f4.png)  
 ## Obtaining mean Average Precision
 In The Paper the mAP is 35.11% in the testing set.  
