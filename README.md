@@ -27,7 +27,8 @@ conda activate base
 jupyter notebook
 ```
 Open up ```sppnetFinal2.ipynb``` to run the respective experiments
-Grounf Truth and Detected values will be stored in your drive copy those:
+## Obtaining mean Average Precision
+After executing ```sppnetFinal2.ipynb```**Ground Truth** and **Detected values** will be stored in your drive copy those:
 - ground-truth files into the folder input/ground-truth/ 
 - detection-results files into the folder input/detection-results/
-Run the code: ```python main.py``` to obtain **mean Average Precision**
+- Run the code: ```python main.py``` 
