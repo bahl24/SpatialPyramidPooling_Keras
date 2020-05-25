@@ -10,7 +10,7 @@ Paper: [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recogn
 
 Dataset: [The PASCAL Visual Object Classes Challenge 2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/)
 
-Detailed presentation report - NNFL presentation.pptx
+Detailed presentation report - [NNFL presentation.pptx](https://github.com/bahl24/SpatialPyramidPooling_Keras/blob/master/NNFL%20presentation.pptx)
 
 ## Dataset
 PASCAL VOC 2007 dataset consists of 20 visual object classes from realistic scenes. These include - 
