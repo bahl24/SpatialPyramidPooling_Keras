@@ -1,5 +1,5 @@
 # Object Detection using Spatial Pyramid Pooling (SPPNet) (paper id: 74)  
-This is a Keras implementation of the object detection & classification algorithm described in the ECCV 2014 paper **"Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"**. This has been done on top of AlexNet architecture using Keras API & Tensorflow.
+This is a Keras implementation of the object detection & classification algorithm described in the ECCV 2014 paper **"Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition"**. This has been done using [Fast-RCNN](https://arxiv.org/abs/1504.08083) technique on top of AlexNet architecture using Keras API & Tensorflow.
 ![spp](http://i.imgur.com/SQWJVoD.png)
 
 (Image credit: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, K. He, X. Zhang, S. Ren, J. Sun)
@@ -33,7 +33,9 @@ jupyter notebook
 
 ## Obtaining mean Average Precision
 In The Paper the mAP is 35.11% in the testing set.  
-After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we ran for 500 images due to out of memory issue) in your drive.  
+After executing ```sppnetFinal2.ipynb``` **Ground Truth** and **Detected values** will be stored (we could train the detection model only for 500 images out of 5017, due to out of memory issue) in your drive.
+
+mAP obtained is 10.4%.
 You can run the code for all images by removing size restruction on read_images_for_detection      
 ```input_imgs, region_proposals, out,no_of_proposals, gt_boxes = read_images_for_detection(df_anno, list_of_img_name, img_dir)```
 
@@ -43,5 +45,10 @@ You can run the code for all images by removing size restruction on read_images_
 **mAP output can be viewed in output folder** 
 ![detection-results-info](https://user-images.githubusercontent.com/43816495/82814541-fe8a4d80-9eb4-11ea-8fa4-133f2c742134.png)
 ![mAP](https://user-images.githubusercontent.com/43816495/82815095-0eeef800-9eb6-11ea-9231-620d2b671591.png)  
-**Average Precision for diningTable is shown below . For rest of classes it can be found in output folder**  
+**Precision-Recall curve for diningTable is shown below . For rest of classes it can be found in output folder**  
+
+```Precision = True Positives / (True Positives + False Positives)```
+
+```Recall = True Positives / (True Positives + False Negatives)```
+
 ![diningtable](https://user-images.githubusercontent.com/43816495/82815110-19a98d00-9eb6-11ea-9c72-c69234825857.png)
